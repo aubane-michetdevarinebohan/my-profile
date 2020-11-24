@@ -1,0 +1,140 @@
+/* Colors and fonts */
+
+body {
+
+	background-color: #fff7fd;
+	color: rgb(30,30,30);
+	font-family: 'Lora', serif;
+	font-size: 16px;
+ }
+
+ h1, h2{
+ 	font-family: 'Montserrat', sans-serif;
+ }
+
+ h1 {
+ 	color: #c7006d;
+ 	font-weight: 400;
+ 	letter-spacing: 30px
+ 	font-size:60px;
+ 	text-transform: uppercase;
+ }
+
+ h2{
+ 	color: #bf8494;
+	font-size:24px;
+ 	text-transform: uppercase;
+ 	font-weight: lighter;
+ 	font-weight: 500;
+ }
+a{
+	font-family: 'Montserrat', sans-serif;
+	text-decoration: none;
+	color: #c7006d;
+	font-weight: 600;
+	font-size: 15px;
+}
+
+a:hover {
+	color: #bf8494;
+	font-style: italic;
+}
+
+/* Custom design with class */
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba (0,0,0,0.3);
+	border-radius: 4px;
+	margin: 10px 0px;
+	text-align: center;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+.btn-pink {
+	background-color: #c7006d;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+.btn-pink:hover {
+	background-color: #c7006d;
+	color: #bf8494;
+}
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+.list-inline i{
+	font-size: 50px;
+	color: #c7006d;
+}
+.list-inline:hover i{
+	color: #bf8494;
+}
+
+/* Design adjustments using id */
+#introduction p {
+	margin-bottom: 40px;
+}
+
+
+@media(max-width: 760px) {
+	.container {
+		width: 600px;
+	}
+
+}
+
+@media(max-width: 500px){
+	.container{
+		width: 400px;
+	}
+}
+
+
+.sidebar {
+  position: fixed;
+  height: 250px;
+  width: 200px;
+  left: 30px;
+  top: 20px;
+  bottom: 50px;
+  background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba (0,0,0,0.2);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: left;
+	overflow-x: hidden;
+}
+
+.page-content {
+  margin-left: 700px;
+}
+
+.sidebar ul {
+  list-style: none;
+	padding-left: 0px;
+	font-size: 30px;
+	text-transform: uppercase;
+}
+
+.sidebar a {
+	font-size: 17px;
+}
+
+
+
+
+
